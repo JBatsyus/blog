@@ -1,192 +1,176 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="ru">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./normalize.css">
-    <link rel="stylesheet" href="./style.css">
-
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
 </head>
 
 <body>
-    <div class="nm-blog-wrap">
+    <div class="blog-content-col">
+        <section class="blog-content">
+            <h1 class="blog-content__title">Блог</h1>
 
-        <div class="nm-blog layout-classic no-sidebar">
-            <div class="nm-blog-row nm-row">
-                <div class="nm-blog-content-col col-xs-12">
-                    <section class="blog-content">
-                        <h1 class="blog-content__title">Блог</h1>
-
-                        <div class="blog-content__grid">
-                            <!-- Карточка 1 -->
-                            <article class="blog-post-card">
-                                <a href="./detail.html" class="blog-post-card__link">
-                                    <figure class="blog-post-card__image-container">
-                                        <img src="./images/1.png"
-                                            alt="Современная гостиная с красным креслом и белым диваном"
-                                            class="blog-post-card__image">
-                                    </figure>
-                                    <div class="blog-post-card__content">
-                                        <time class="blog-post-card__date" datetime="2026-02-12">12 февраля 2026</time>
-                                        <div class="blog-post-card__text-block">
-                                            <h2 class="blog-post-card__title">Как подобрать дизайнера интерьера: советы
-                                                для
-                                                идеального
-                                                ремонта с мягкой мебелью</h2>
-                                            <p class="blog-post-card__description">Советы для идеального ремонта с
-                                                мягкой
-                                                мебелью</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </article>
-
-                            <!-- Карточка 2 -->
-                            <article class="blog-post-card">
-                                <a href="" class="blog-post-card__link">
-                                    <figure class="blog-post-card__image-container">
-                                        <img src="./images/2.png" alt="Минималистичная гостиная с белым диваном"
-                                            class="blog-post-card__image">
-                                    </figure>
-                                    <div class="blog-post-card__content">
-                                        <time class="blog-post-card__date" datetime="2026-02-11">11 февраля 2026</time>
-                                        <div class="blog-post-card__text-block">
-                                            <h2 class="blog-post-card__title">Минимализм в интерьере: ода простоте и
-                                                функциональности
-                                            </h2>
-                                            <p class="blog-post-card__description">Советы для идеального ремонта с
-                                                мягкой
-                                                мебелью</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </article>
-
-                            <!-- Карточка 3 -->
-                            <article class="blog-post-card">
-                                <a href="" class="blog-post-card__link">
-                                    <figure class="blog-post-card__image-container">
-                                        <img src="./images/3.png" alt="Кот отдыхает на диване с подушками"
-                                            class="blog-post-card__image">
-                                    </figure>
-                                    <div class="blog-post-card__content">
-                                        <time class="blog-post-card__date" datetime="2026-02-10">10 февраля 2026</time>
-                                        <div class="blog-post-card__text-block">
-                                            <h2 class="blog-post-card__title">Что такое антикварная ткань: каким
-                                                дизайном не
-                                                страшны
-                                                зубы и когти домашних питомцев</h2>
-                                            <p class="blog-post-card__description">Выбираем обивку для дивана,
-                                                устойчивую к
-                                                когтям
-                                                животных. Сравнение тканей «антикот». Советы по уходу</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </article>
-
-                            <!-- Карточка 4 -->
-                            <article class="blog-post-card">
-                                <a href="" class="blog-post-card__link">
-                                    <figure class="blog-post-card__image-container">
-                                        <img src="./images/1.png" alt="Синий угловой диван в современной гостиной"
-                                            class="blog-post-card__image">
-                                    </figure>
-                                    <div class="blog-post-card__content">
-                                        <time class="blog-post-card__date" datetime="2026-02-09">9 февраля 2026</time>
-                                        <div class="blog-post-card__text-block">
-                                            <h2 class="blog-post-card__title">Стандартные размеры диванов: как подобрать
-                                                ширину, высоту
-                                                и глубину</h2>
-                                            <p class="blog-post-card__description">Мягкая мебель - островок комфорта,
-                                                вот
-                                                только требует
-                                                аккуратного отношения и разумного ухода</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </article>
-
-                            <!-- Карточка 5 -->
-                            <article class="blog-post-card">
-                                <a href="" class="blog-post-card__link">
-                                    <figure class="blog-post-card__image-container">
-                                        <img src="./images/3.png" alt="Кот на диване с розовой подушкой"
-                                            class="blog-post-card__image">
-                                    </figure>
-                                    <div class="blog-post-card__content">
-                                        <time class="blog-post-card__date" datetime="2026-02-08">8 февраля 2026</time>
-                                        <div class="blog-post-card__text-block">
-                                            <h2 class="blog-post-card__title">Как подобрать дизайнера интерьера: советы
-                                                для
-                                                идеального
-                                                ремонта с мягкой мебелью</h2>
-                                            <p class="blog-post-card__description">Советы для идеального ремонта с
-                                                мягкой
-                                                мебелью</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </article>
-
-                            <!-- Карточка 6 -->
-                            <article class="blog-post-card">
-                                <a href="" class="blog-post-card__link">
-                                    <figure class="blog-post-card__image-container">
-                                        <img src="./images/2.png"
-                                            alt="Современная гостиная с красным креслом и белым диваном"
-                                            class="blog-post-card__image">
-                                    </figure>
-                                    <div class="blog-post-card__content">
-                                        <time class="blog-post-card__date" datetime="2026-02-07">7 февраля 2026</time>
-                                        <div class="blog-post-card__text-block">
-                                            <h2 class="blog-post-card__title">Как подобрать дизайнера интерьера: советы
-                                                для
-                                                идеального
-                                                ремонта с мягкой мебелью</h2>
-                                            <p class="blog-post-card__description">Советы для идеального ремонта с
-                                                мягкой
-                                                мебелью</p>
-                                        </div>
-                                    </div>
-                                </a>
-                            </article>
+            <div class="blog-content__grid">
+                <article class="blog-post-card">
+                    <a href="./detail.html" class="blog-post-card__link">
+                        <figure class="blog-post-card__image-container">
+                            <img src="./images/1.png" alt="Современная гостиная с красным креслом и белым диваном"
+                                class="blog-post-card__image" />
+                        </figure>
+                        <div class="blog-post-card__content">
+                            <time class="blog-post-card__date" datetime="2026-02-12">12 февраля 2026</time>
+                            <div class="blog-post-card__text-block">
+                                <h2 class="blog-post-card__title">
+                                    Как подобрать дизайнера интерьера: советы для идеального
+                                    ремонта с мягкой мебелью
+                                </h2>
+                                <p class="blog-post-card__description">
+                                    Советы для идеального ремонта с мягкой мебелью
+                                </p>
+                            </div>
                         </div>
-                        <div class="blog-pagination">
-                            <nav class="blog-pagination__container" aria-label="Навигация по страницам блога">
-                                <ul class="blog-pagination__list">
-                                    <li class="blog-pagination__item blog-pagination__item--current">
-                                        <span class="blog-pagination__page">1</span>
-                                    </li>
-                                    <li class="blog-pagination__item">
-                                        <a href="#" class="blog-pagination__link">2</a>
-                                    </li>
-                                    <li class="blog-pagination__item">
-                                        <a href="#" class="blog-pagination__link">3</a>
-                                    </li>
-                                    <li class="blog-pagination__item blog-pagination__item--next">
-                                        <a href="#" class="blog-pagination__link blog-pagination__next-link"
-                                            aria-label="Следующая страница">
-                                            <svg width="8" height="16" viewBox="0 0 8 16" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path fill-rule="evenodd" clip-rule="evenodd"
-                                                    d="M0.331044 0.256714C0.741554 -0.112745 1.37384 -0.0794662 1.7433 0.331044L7.7433 6.99771C8.08558 7.37802 8.08558 7.95534 7.7433 8.33564L1.7433 15.0023C1.37384 15.4128 0.741554 15.4461 0.331044 15.0766C-0.0794662 14.7072 -0.112745 14.0749 0.256714 13.6644L5.65465 7.66668L0.256714 1.66897C-0.112745 1.25846 -0.0794662 0.626173 0.331044 0.256714Z"
-                                                    fill="currentColor" />
-                                            </svg>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </nav>
+                    </a>
+                </article>
+
+                <article class="blog-post-card">
+                    <a href="" class="blog-post-card__link">
+                        <figure class="blog-post-card__image-container">
+                            <img src="./images/2.png" alt="Минималистичная гостиная с белым диваном"
+                                class="blog-post-card__image" />
+                        </figure>
+                        <div class="blog-post-card__content">
+                            <time class="blog-post-card__date" datetime="2026-02-11">11 февраля 2026</time>
+                            <div class="blog-post-card__text-block">
+                                <h2 class="blog-post-card__title">
+                                    Минимализм в интерьере: ода простоте и функциональности
+                                </h2>
+                                <p class="blog-post-card__description">
+                                    Советы для идеального ремонта с мягкой мебелью
+                                </p>
+                            </div>
                         </div>
-                    </section>
+                    </a>
+                </article>
 
-                </div>
+                <article class="blog-post-card">
+                    <a href="" class="blog-post-card__link">
+                        <figure class="blog-post-card__image-container">
+                            <img src="./images/3.png" alt="Кот отдыхает на диване с подушками"
+                                class="blog-post-card__image" />
+                        </figure>
+                        <div class="blog-post-card__content">
+                            <time class="blog-post-card__date" datetime="2026-02-10">10 февраля 2026</time>
+                            <div class="blog-post-card__text-block">
+                                <h2 class="blog-post-card__title">
+                                    Что такое антикварная ткань: каким дизайном не страшны зубы
+                                    и когти домашних питомцев
+                                </h2>
+                                <p class="blog-post-card__description">
+                                    Выбираем обивку для дивана, устойчивую к когтям животных.
+                                    Сравнение тканей «антикот». Советы по уходу
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
 
+                <article class="blog-post-card">
+                    <a href="" class="blog-post-card__link">
+                        <figure class="blog-post-card__image-container">
+                            <img src="./images/1.png" alt="Синий угловой диван в современной гостиной"
+                                class="blog-post-card__image" />
+                        </figure>
+                        <div class="blog-post-card__content">
+                            <time class="blog-post-card__date" datetime="2026-02-09">9 февраля 2026</time>
+                            <div class="blog-post-card__text-block">
+                                <h2 class="blog-post-card__title">
+                                    Стандартные размеры диванов: как подобрать ширину, высоту и
+                                    глубину
+                                </h2>
+                                <p class="blog-post-card__description">
+                                    Мягкая мебель - островок комфорта, вот только требует
+                                    аккуратного отношения и разумного ухода
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="blog-post-card">
+                    <a href="" class="blog-post-card__link">
+                        <figure class="blog-post-card__image-container">
+                            <img src="./images/3.png" alt="Кот на диване с розовой подушкой"
+                                class="blog-post-card__image" />
+                        </figure>
+                        <div class="blog-post-card__content">
+                            <time class="blog-post-card__date" datetime="2026-02-08">8 февраля 2026</time>
+                            <div class="blog-post-card__text-block">
+                                <h2 class="blog-post-card__title">
+                                    Как подобрать дизайнера интерьера: советы для идеального
+                                    ремонта с мягкой мебелью
+                                </h2>
+                                <p class="blog-post-card__description">
+                                    Советы для идеального ремонта с мягкой мебелью
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="blog-post-card">
+                    <a href="" class="blog-post-card__link">
+                        <figure class="blog-post-card__image-container">
+                            <img src="./images/2.png" alt="Современная гостиная с красным креслом и белым диваном"
+                                class="blog-post-card__image" />
+                        </figure>
+                        <div class="blog-post-card__content">
+                            <time class="blog-post-card__date" datetime="2026-02-07">7 февраля 2026</time>
+                            <div class="blog-post-card__text-block">
+                                <h2 class="blog-post-card__title">
+                                    Как подобрать дизайнера интерьера: советы для идеального
+                                    ремонта с мягкой мебелью
+                                </h2>
+                                <p class="blog-post-card__description">
+                                    Советы для идеального ремонта с мягкой мебелью
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                </article>
             </div>
-        </div>
+            <div class="blog-pagination">
+                <nav class="blog-pagination__container" aria-label="Навигация по страницам блога">
+                    <ul class="blog-pagination__list">
+                        <li class="blog-pagination__item blog-pagination__item--current">
+                            <span class="blog-pagination__page">1</span>
+                        </li>
+                        <li class="blog-pagination__item">
+                            <a href="#" class="blog-pagination__link">2</a>
+                        </li>
+                        <li class="blog-pagination__item">
+                            <a href="#" class="blog-pagination__link">3</a>
+                        </li>
+                        <li class="blog-pagination__item blog-pagination__item--next">
+                            <a href="#" class="blog-pagination__link blog-pagination__next-link"
+                                aria-label="Следующая страница">
+                                <svg width="8" height="16" viewBox="0 0 8 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M0.331044 0.256714C0.741554 -0.112745 1.37384 -0.0794662 1.7433 0.331044L7.7433 6.99771C8.08558 7.37802 8.08558 7.95534 7.7433 8.33564L1.7433 15.0023C1.37384 15.4128 0.741554 15.4461 0.331044 15.0766C-0.0794662 14.7072 -0.112745 14.0749 0.256714 13.6644L5.65465 7.66668L0.256714 1.66897C-0.112745 1.25846 -0.0794662 0.626173 0.331044 0.256714Z"
+                                        fill="currentColor" />
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </section>
     </div>
+
     <div class="site-breadcrumbs-trail__wrap">
         <nav class="site-breadcrumbs-trail" aria-label="Навигация по сайту">
             <ol class="site-breadcrumbs-trail__list">
