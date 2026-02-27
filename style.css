@@ -285,6 +285,7 @@
   font-size: 14px;
   line-height: 1.28571;
   color: #c19041;
+  padding: 0;
 }
 .blog-detail__copy-btn:hover {
   opacity: 0.7;
@@ -616,8 +617,7 @@
 .blog-detail__copy-status {
   position: absolute;
   top: -36px;
-  /* Дистанция над кнопкой */
-  left: 50%;
+  left: 35%;
   transform: translateX(-50%);
   border-radius: 4px;
   padding: 5px 12px;
