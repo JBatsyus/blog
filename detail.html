@@ -39,9 +39,8 @@
                                 день, потому что речь о моей жене.
                             </p>
 
-                            <div class="blog-detail__copy-wrapper" style="position: relative; display: inline-block;">
-                                <!-- Само всплывающее окно -->
-                                <div id="copy-status" class="blog-detail__copy-status">Ссылка скопирована</div>
+                            <div class="blog-detail__copy-wrapper">
+                                <div id="copy-status" class="blog-detail__copy-status"> Скопировано</div>
 
                                 <button type="button" class="blog-detail__copy-btn" id="button-copy"
                                     aria-label="Скопировать ссылку" data-clipboard-text="">
@@ -162,9 +161,9 @@
     </html>
 </body>
 
-<!-- <script src="./js/clipboard.js"></script> -->
+<script src="./js/clipboard.js"></script>
 
-<script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+
 
 <script>
     document.addEventListener('DOMContentLoaded', function () {
@@ -197,8 +196,8 @@
 
         clipboard.on('error', function (e) {
             console.error('Ошибка копирования:', e);
-            // Для отладки на локалке можно показать альтернативный статус
-            alert('Не удалось скопировать ссылку. Скопируйте вручную: ' + window.location.href);
+
+
         });
     });
 </script>

@@ -732,6 +732,11 @@
     }
 }
 
+.blog-detail__copy-wrapper {
+    position: relative;
+    display: inline-block;
+}
+
 .blog-detail__copy-status {
     position: absolute;
     top: -36px;
